@@ -1,0 +1,139 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;}
+.frame {
+    min-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* navigator */
+header {
+    width: 100%;
+    min-width: 1280px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid #f1f1f1;
+}
+.navigator .name{
+    font-size: 24px;
+    text-align: center;
+    
+}
+.navigator ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.navigator:hover {
+    font-weight:700;
+}
+
+/* introduce */
+.first {
+    background-color: #e8f3ff;
+}
+.introduce {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 250px auto;
+}
+.introduce h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.introduce .my-name{
+    font-size: 70px;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+.introduce .my-picture{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow:hidden;
+    border-radius: 300px;
+}
+.introduce .my-picture img {
+    width: 500px;
+    position: absolute;
+    top:-150px;
+    right: 0;
+}
+
+/* favorite */
+.favorite {
+    margin: 250px 0 0 0;
+    background-color: white;
+}
+.favorite h3 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.favorite .container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 150px 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.favorite .container .image {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+.favorite .container img {
+    width: 350px;
+}
+.favorite .container .text {
+    padding: 0 0 0 15px;
+}
+.favorite .container .text h4 {
+    font-size:26px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.favorite .container .text p {
+    line-height: 1.5;
+}
+
+/* footer */
+footer {
+    background-color: #f5f5f5;
+}
+footer .container {
+    width: 1280px;
+    padding: 380px 0 200px;
+    margin: 0 auto;
+}
+footer .container h3 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+footer .container .text {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+footer .container .text .material-symbols-outlined {
+    margin-top: 130px;
+    font-size: 70px;
+}
